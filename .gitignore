@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, generated with `go test -c`
+*.test
+
+# Compiled object files
+*.o
+
+# Dependency directories
+# Go modules
+/vendor/
+
+# Build outputs
+/bin/
+/pkg/
+
+# Log files
+*.log
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
