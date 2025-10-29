@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Artisan CLI Tool for Go Labs
+# This script provides an alias for running the artisan command
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Change to the project root directory
+cd "$SCRIPT_DIR"
+
+# Run the artisan command
+go run cmd/artisan/main.go "$@"

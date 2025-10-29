@@ -18,6 +18,9 @@
 /bin/
 /pkg/
 
+# Artisan CLI specific
+artisan-alias.sh
+
 # Log files
 *.log
 
